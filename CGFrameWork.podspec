@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CGFrameWork"
 
-  s.version      = "0.6"
+  s.version      = "1.6"
 
   s.summary      = "this framework is used for testing purpose CGFrameWork."
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "10.0"
 
-  s.source       = { :git => "https://github.com/Malli246/CGFrameWork.git", :tag => "0.6" }
+  s.source       = { :git => "https://github.com/Malli246/CGFrameWork.git", :tag => "1.6" }
 
   s.source_files  = "CGFrameWork", "CGFrameWork/**/*.{h,m,swift}"
   
