@@ -11,6 +11,7 @@
 		864A4FD31F69031900B7A56A /* CGFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A4FD21F69031900B7A56A /* CGFrameWorkTests.swift */; };
 		864A4FD51F69031900B7A56A /* CGFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 864A4FC71F69031900B7A56A /* CGFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		864A4FDF1F69033800B7A56A /* DataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864A4FDE1F69033800B7A56A /* DataFile.swift */; };
+		86ACFF281F693D8A000581E2 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACFF271F693D8A000581E2 /* TestFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		864A4FD21F69031900B7A56A /* CGFrameWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFrameWorkTests.swift; sourceTree = "<group>"; };
 		864A4FD41F69031900B7A56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864A4FDE1F69033800B7A56A /* DataFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFile.swift; sourceTree = "<group>"; };
+		86ACFF271F693D8A000581E2 /* TestFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				864A4FC71F69031900B7A56A /* CGFrameWork.h */,
 				864A4FDE1F69033800B7A56A /* DataFile.swift */,
+				86ACFF271F693D8A000581E2 /* TestFile.swift */,
 				864A4FC81F69031900B7A56A /* Info.plist */,
 			);
 			path = CGFrameWork;
@@ -203,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				864A4FDF1F69033800B7A56A /* DataFile.swift in Sources */,
+				86ACFF281F693D8A000581E2 /* TestFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +416,7 @@
 				864A4FDA1F69031900B7A56A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		864A4FDB1F69031900B7A56A /* Build configuration list for PBXNativeTarget "CGFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				864A4FDD1F69031900B7A56A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
